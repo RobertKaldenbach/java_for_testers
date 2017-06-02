@@ -1,5 +1,7 @@
 /**
- * Created by bobert on 6/1/17.
+ * Created by Robert Kaldenbach on 6/1/17.
+ * From Chapter 3 of Java for Testers
+ * By Alan Richardson
  */
 
 
