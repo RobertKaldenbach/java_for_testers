@@ -27,10 +27,7 @@ public class IntegerExamplesTest {
     //Test Integer static method for int to Hex string
     @Test
     public void intToHex(){
-
-        String test = Integer.toHexString(11);
-
-       // System.out.println(test);
+        
         assertEquals("The Hex of 11 is B","b",Integer.toHexString(11));
 
         assertEquals("The Hex of 10 is a","a",Integer.toHexString(10));
