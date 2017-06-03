@@ -36,7 +36,18 @@ public class IntegerExamplesTest {
 
         assertEquals("The Hex of 21 is 15", "15",Integer.toHexString(21));
 
+    }
 
+    //Test for MAX and MIN Integer sizes
+    @Test
+    public void confirmIntegerMinValue(){
+        assertEquals("MIN_VALUE equals -2147483648",-2147483648,Integer.MIN_VALUE);
+
+    }
+
+    @Test
+    public void confirmIntegerMaxValue(){
+        assertEquals("MAX_VALUE equals 2147483647",2147483647,Integer.MAX_VALUE);
     }
 
 
