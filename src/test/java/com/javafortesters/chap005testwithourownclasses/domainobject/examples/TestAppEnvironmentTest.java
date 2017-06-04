@@ -19,7 +19,7 @@ public class TestAppEnvironmentTest {
     }
 
     @Test
-    public void canGetDomain(){
+    public void canGetDomainAndPortSeperatly(){
         assertEquals("Just The Domain","192.123.0.3",TestAppEnv.DOMAIN);
 
         assertEquals("Just the Port","67",TestAppEnv.PORT);
