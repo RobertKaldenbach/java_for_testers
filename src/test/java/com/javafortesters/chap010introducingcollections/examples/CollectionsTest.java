@@ -4,13 +4,17 @@
 
 package com.javafortesters.chap010introducingcollections.examples;
 
+import com.javafortesters.domainentities.User;
 import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.List;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 public class CollectionsTest {
 
@@ -86,8 +90,56 @@ public class CollectionsTest {
     }
 
     @Test
-    public void createAndManipulateCollectionOfUsers(){
-        
-    }
+    public void createAndManipulateCollectionOfUsers() {
+        //Create Collection1
+        Collection<User> usersListA = new ArrayList<User>();
 
+        //Check that is empty
+        assertEquals(0, usersListA.size());
+        assertTrue(usersListA.isEmpty());
+
+        //Create Two Test Users
+        for (int i = 0; i <= 1; i++) {
+            usersListA.add(new User("User" + i, "Password" + i));
+        }
+
+        //Assert that isn't empty two users
+        assertEquals(2, usersListA.size());
+        assertFalse(usersListA.isEmpty());
+
+        //Create Second Collection
+        Collection<User> userListB = new ArrayList<User>();
+
+        //Assert that Second Collection is empty
+        assertEquals(0, userListB.size());
+        assertTrue(userListB.isEmpty());
+
+        //Add new users for Collection B
+        for (int i = 3; i <= 4; i++) {
+            userListB.add(new User("User" + i, "Password" + i));
+        }
+
+        //Check that they were properly added
+        assertEquals(2, userListB.size());
+        assertFalse(userListB.isEmpty());
+
+        //Add userlist B to Userlist A
+        usersListA.addAll(userListB);
+
+        //Check that they were added properly
+        assertEquals(4,usersListA.size());
+        assertTrue(usersListA.containsAll(userListB));
+
+        //Remove all objects from user list B
+        usersListA.removeAll(userListB);
+
+        
+        assertEquals(2, usersListA.size());
+        assertFalse(usersListA.containsAll(userListB));
+
+        //Empty userListA
+        usersListA.clear();
+        assertEquals(0,usersListA.size());
+        assertTrue(usersListA.isEmpty());
+    }
 }
