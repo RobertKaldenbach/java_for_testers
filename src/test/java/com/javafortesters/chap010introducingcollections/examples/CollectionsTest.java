@@ -63,6 +63,30 @@ public class CollectionsTest {
         //Convert Array to List Collection
         List<String> days = Arrays.asList(someDays);
 
+        int i = 0;
+
+        while (!days.get(i).equals("Monday")){
+        i++;
+        }
+        assertEquals(3,i);
+
+    }
+
+    @Test
+    public void iterateDaysOfWeekUsingFor(){
+        //Create Array of Days of Week
+        String[] someDays={"Tuesday","Thursday","Wednesday","Monday","Saturday","Friday"};
+
+        //Convert Array to List Collection
+        List<String> days = Arrays.asList(someDays);
+        int i;
+        for(i = 0; !days.get(i).equals("Monday");i++){
+        }
+        assertEquals(3,i);
+    }
+
+    @Test
+    public void createAndManipulateCollectionOfUsers(){
         
     }
 
