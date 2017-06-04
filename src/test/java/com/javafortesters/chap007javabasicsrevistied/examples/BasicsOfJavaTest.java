@@ -11,7 +11,7 @@
      */
 
 //packages allow us to group and seperate our classes properly.  They are declared at the beginning of the file
-package com.javafortesters.chap006javabasicsrevistied.examples;
+package com.javafortesters.chap007javabasicsrevistied.examples;
 
 import org.junit.Test;
 

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73d0076c-a8cf-42c4-bf9a-af7977156962" name="Default" comment="" />
+    <list default="true" id="73d0076c-a8cf-42c4-bf9a-af7977156962" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/javafortesters/chap006javabasicsrevistied/examples/BasicsOfJavaTest.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/javafortesters/chap006javabasicsrevistied/examples/BasicsOfJavaTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/javafortesters/chap007javabasicsrevistied/examples/BasicsOfJavaTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -97,10 +101,10 @@
         </entry>
       </file>
       <file leaf-file-name="BasicsOfJavaTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/chap006javabasicsrevistied/examples/BasicsOfJavaTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/chap007javabasicsrevistied/examples/BasicsOfJavaTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="312" column="48" lean-forward="false" selection-start-line="312" selection-start-column="48" selection-end-line="312" selection-end-column="48" />
+            <state relative-caret-position="112">
+              <caret line="198" column="26" lean-forward="true" selection-start-line="198" selection-start-column="26" selection-end-line="198" selection-end-column="26" />
               <folding>
                 <element signature="e#0#7883#0" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -167,6 +171,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/javafortesters/domainentities/User.java" />
         <option value="$PROJECT_DIR$/src/test/java/BasicsOfJavaTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/javafortesters/chap006javabasicsrevistied/examples/BasicsOfJavaTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/javafortesters/chap007javabasicsrevistied/examples/BasicsOfJavaTest.java" />
       </list>
     </option>
   </component>
@@ -270,10 +275,6 @@
               <option name="myItemId" value="javafortesters" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -298,6 +299,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="javafortesters" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -372,33 +377,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BasicsOfJavaTest.someStringMethods">
-    <configuration default="false" name="BasicsOfJavaTest.bitWiseAssignmentOperatorsExplored" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.javafortesters.chap006javabasicsrevistied.examples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Java" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.javafortesters.chap006javabasicsrevistied.examples" />
-      <option name="MAIN_CLASS_NAME" value="com.javafortesters.chap006javabasicsrevistied.examples.BasicsOfJavaTest" />
-      <option name="METHOD_NAME" value="bitWiseAssignmentOperatorsExplored" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.BasicsOfJavaTest.booleanOperatorsExplored">
     <configuration default="false" name="BasicsOfJavaTest.bitwiseShiftOperatorsExplored" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -490,6 +469,32 @@
       <option name="PACKAGE_NAME" value="com.javafortesters.chap006javabasicsrevistied.examples" />
       <option name="MAIN_CLASS_NAME" value="com.javafortesters.chap006javabasicsrevistied.examples.BasicsOfJavaTest" />
       <option name="METHOD_NAME" value="someStringMethods" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="BasicsOfJavaTest.booleanOperatorsExplored" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.javafortesters.chap007javabasicsrevistied.examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Java" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.javafortesters.chap007javabasicsrevistied.examples" />
+      <option name="MAIN_CLASS_NAME" value="com.javafortesters.chap007javabasicsrevistied.examples.BasicsOfJavaTest" />
+      <option name="METHOD_NAME" value="booleanOperatorsExplored" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -708,19 +713,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.BasicsOfJavaTest.bitWiseAssignmentOperatorsExplored" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.BasicsOfJavaTest.bitwiseShiftOperatorsExplored" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.BasicsOfJavaTest.operatorPrecedence" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.BasicsOfJavaTest.stringsConcatenated" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.BasicsOfJavaTest.someStringMethods" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.BasicsOfJavaTest.bitwiseShiftOperatorsExplored" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.BasicsOfJavaTest.operatorPrecedence" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.BasicsOfJavaTest.stringsConcatenated" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.BasicsOfJavaTest.someStringMethods" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.BasicsOfJavaTest.booleanOperatorsExplored" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BasicsOfJavaTest.someStringMethods" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BasicsOfJavaTest.stringsConcatenated" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.BasicsOfJavaTest.operatorPrecedence" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.BasicsOfJavaTest.bitwiseShiftOperatorsExplored" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.BasicsOfJavaTest.bitWiseAssignmentOperatorsExplored" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.BasicsOfJavaTest.booleanOperatorsExplored" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.BasicsOfJavaTest.someStringMethods" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.BasicsOfJavaTest.stringsConcatenated" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BasicsOfJavaTest.operatorPrecedence" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.BasicsOfJavaTest.bitwiseShiftOperatorsExplored" />
       </list>
     </recent_temporary>
   </component>
@@ -758,11 +763,11 @@
     <history-entry file="BasicsOfJavaTest_bitWiseAssignmentOperatorsExplored - 2017.06.04 at 09h 29m 44s.xml">
       <configuration name="BasicsOfJavaTest.bitWiseAssignmentOperatorsExplored" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BasicsOfJavaTest_bitwiseOperatorsExplored - 2017.06.04 at 09h 26m 26s.xml">
-      <configuration name="BasicsOfJavaTest.bitwiseOperatorsExplored" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BasicsOfJavaTest_bitwiseShiftOperatorsExplored - 2017.06.04 at 09h 34m 18s.xml">
       <configuration name="BasicsOfJavaTest.bitwiseShiftOperatorsExplored" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BasicsOfJavaTest_booleanOperatorsExplored - 2017.06.04 at 09h 55m 28s.xml">
+      <configuration name="BasicsOfJavaTest.booleanOperatorsExplored" configurationId="JUnit" />
     </history-entry>
     <history-entry file="BasicsOfJavaTest_operatorPrecedence - 2017.06.04 at 09h 35m 55s.xml">
       <configuration name="BasicsOfJavaTest.operatorPrecedence" configurationId="JUnit" />
@@ -779,7 +784,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="0" width="1606" height="870" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -791,12 +795,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3294423" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3294423" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -952,10 +956,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/chap006javabasicsrevistied/examples/BasicsOfJavaTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/chap007javabasicsrevistied/examples/BasicsOfJavaTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="312" column="48" lean-forward="false" selection-start-line="312" selection-start-column="48" selection-end-line="312" selection-end-column="48" />
+        <state relative-caret-position="112">
+          <caret line="198" column="26" lean-forward="true" selection-start-line="198" selection-start-column="26" selection-end-line="198" selection-end-column="26" />
           <folding>
             <element signature="e#0#7883#0" expanded="true" />
             <element signature="imports" expanded="true" />
