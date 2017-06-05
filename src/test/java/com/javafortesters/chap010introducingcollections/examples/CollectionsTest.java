@@ -7,10 +7,7 @@ package com.javafortesters.chap010introducingcollections.examples;
 import com.javafortesters.domainentities.User;
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.List;
+import java.util.*;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -169,10 +166,21 @@ public class CollectionsTest {
 
         assertEquals(1,userList.size());
         assertEquals("userA",userList.get(0).getUsername());
+    }
 
+    @Test
+    public void createSetOfUsersExample(){
+        Set<User> userList = new HashSet<>();
 
+        assertEquals(0,userList.size());
+        assertTrue(userList.isEmpty());
 
+        User user1 = new User("username1","password1");
 
+        userList.add(user1);
 
+        userList.add(user1);
+
+        assertEquals(1,userList.size());
     }
 }
