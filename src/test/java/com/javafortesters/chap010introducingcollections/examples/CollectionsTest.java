@@ -133,7 +133,7 @@ public class CollectionsTest {
         //Remove all objects from user list B
         usersListA.removeAll(userListB);
 
-        
+
         assertEquals(2, usersListA.size());
         assertFalse(usersListA.containsAll(userListB));
 
@@ -141,5 +141,38 @@ public class CollectionsTest {
         usersListA.clear();
         assertEquals(0,usersListA.size());
         assertTrue(usersListA.isEmpty());
+    }
+
+    @Test
+    public void createListOfUsers(){
+        List<User> userList = new ArrayList<>();
+
+        assertEquals(0,userList.size());
+        assertTrue(userList.isEmpty());
+
+            User userA = new User("userA", "PasswordA");
+            User userB = new User("userB","PasswordB");
+
+
+        userList.add(userA);
+
+        assertFalse(userList.isEmpty());
+        assertEquals("userA",userList.get(0).getUsername());
+
+        userList.add(0, userB);
+
+        assertEquals(2, userList.size());
+        assertEquals("userB",userList.get(0).getUsername());
+        assertEquals("userA",userList.get(1).getUsername());
+
+        userList.remove(0);
+
+        assertEquals(1,userList.size());
+        assertEquals("userA",userList.get(0).getUsername());
+
+
+
+
+
     }
 }
