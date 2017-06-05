@@ -183,4 +183,17 @@ public class CollectionsTest {
 
         assertEquals(1,userList.size());
     }
+
+    @Test
+    public void createMapOfUsersExample(){
+        Map<String,User> userList = new HashMap<>();
+
+        User user1 = new User("username1","password2");
+        User user2 = new User("username2","password2");
+
+        userList.put("User1",user1);
+        userList.put("User1",user2);
+
+        assertEquals(1,userList.size());
+    }
 }
