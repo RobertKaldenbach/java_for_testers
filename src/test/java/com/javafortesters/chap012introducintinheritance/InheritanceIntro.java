@@ -15,16 +15,16 @@ public class InheritanceIntro {
 
     @Test
     public void emptyUserExample(){
-    EmptyUser enu = new EmptyUser();
-    assertEquals("username",enu.getUsername());
-    assertEquals("password",enu.getPassword());
 
+        EmptyUser enu = new EmptyUser();
+        assertEquals("username",enu.getUsername());
+        assertEquals("password",enu.getPassword());
     }
 
     @Test
     public void emptyUserGetUrl(){
-    EmptyUser enu = new EmptyUser();
-    assertEquals("http://192.123.0.3:67",enu.getUrl());
+        EmptyUser enu = new EmptyUser();
+        assertEquals("http://192.123.0.3:67",enu.getUrl());
     }
 
     @Test

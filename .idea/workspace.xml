@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73d0076c-a8cf-42c4-bf9a-af7977156962" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/javafortesters/domainentities/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/javafortesters/domainentities/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/javafortesters/chap012introducintinheritance/InheritanceIntro.java" afterPath="$PROJECT_DIR$/src/test/java/com/javafortesters/chap012introducintinheritance/InheritanceIntro.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -84,8 +83,8 @@
       <file leaf-file-name="InheritanceIntro.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/chap012introducintinheritance/InheritanceIntro.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="53" column="61" lean-forward="true" selection-start-line="53" selection-start-column="61" selection-end-line="53" selection-end-column="61" />
+            <state relative-caret-position="411">
+              <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -179,8 +178,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/javafortesters/chap012introducintinheritance/AdminUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javafortesters/domainentities/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javafortesters/domainentities/AdminUser.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/javafortesters/chap012introducintinheritance/InheritanceIntro.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javafortesters/domainentities/ReadOnlyUser.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/javafortesters/chap012introducintinheritance/InheritanceIntro.java" />
       </list>
     </option>
   </component>
@@ -1396,8 +1395,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/chap012introducintinheritance/InheritanceIntro.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="53" column="61" lean-forward="true" selection-start-line="53" selection-start-column="61" selection-end-line="53" selection-end-column="61" />
+        <state relative-caret-position="411">
+          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
