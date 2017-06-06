@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73d0076c-a8cf-42c4-bf9a-af7977156962" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/javafortesters/chap012introducintinheritance/InheritanceIntro.java" afterPath="$PROJECT_DIR$/src/test/java/com/javafortesters/chap012introducintinheritance/InheritanceIntro.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/ArraysAndForLoopIterationTest.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,7 +20,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/javafortesters/domainentities/User.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="347">
-              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding>
                 <element signature="e#609#610#0" expanded="true" />
                 <element signature="e#640#641#0" expanded="true" />
@@ -59,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/chap011exceptions/examples/ExceptionsTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="410">
-              <caret line="36" column="41" lean-forward="true" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+              <caret line="36" column="41" lean-forward="false" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -72,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/javafortesters/domainentities/EmptyUser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
-              <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+              <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,8 +83,8 @@
       <file leaf-file-name="InheritanceIntro.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/chap012introducintinheritance/InheritanceIntro.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+            <state relative-caret-position="315">
+              <caret line="52" column="41" lean-forward="true" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -97,7 +97,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/javafortesters/domainentities/AdminUser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="48">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding>
                 <element signature="e#193#194#0" expanded="true" />
                 <element signature="e#237#238#0" expanded="true" />
@@ -114,7 +114,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/javafortesters/domainobject/TestAppEnv.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="96">
-              <caret line="6" column="52" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="52" />
+              <caret line="6" column="52" lean-forward="false" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="52" />
               <folding>
                 <element signature="e#242#243#0" expanded="true" />
                 <element signature="e#290#291#0" expanded="true" />
@@ -1316,7 +1316,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/javafortesters/domainobject/TestAppEnv.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
-          <caret line="6" column="52" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="52" />
+          <caret line="6" column="52" lean-forward="false" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="52" />
           <folding>
             <element signature="e#242#243#0" expanded="true" />
             <element signature="e#290#291#0" expanded="true" />
@@ -1327,7 +1327,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/javafortesters/domainentities/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
             <element signature="e#609#610#0" expanded="true" />
             <element signature="e#640#641#0" expanded="true" />
@@ -1338,7 +1338,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/javafortesters/domainentities/AdminUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
             <element signature="e#193#194#0" expanded="true" />
             <element signature="e#237#238#0" expanded="true" />
@@ -1375,7 +1375,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/chap011exceptions/examples/ExceptionsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
-          <caret line="36" column="41" lean-forward="true" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+          <caret line="36" column="41" lean-forward="false" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
@@ -1386,7 +1386,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/javafortesters/domainentities/EmptyUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1395,8 +1395,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/chap012introducintinheritance/InheritanceIntro.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        <state relative-caret-position="315">
+          <caret line="52" column="41" lean-forward="true" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />

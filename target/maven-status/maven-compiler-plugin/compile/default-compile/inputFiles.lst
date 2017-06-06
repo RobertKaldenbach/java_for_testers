@@ -1,2 +1,5 @@
+/home/bobert/Java/src/main/java/com/javafortesters/domainentities/ReadOnlyUser.java
 /home/bobert/Java/src/main/java/com/javafortesters/domainentities/User.java
+/home/bobert/Java/src/main/java/com/javafortesters/domainentities/EmptyUser.java
+/home/bobert/Java/src/main/java/com/javafortesters/domainentities/AdminUser.java
 /home/bobert/Java/src/main/java/com/javafortesters/domainobject/TestAppEnv.java
